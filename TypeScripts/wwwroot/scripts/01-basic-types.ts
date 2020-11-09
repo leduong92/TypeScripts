@@ -10,9 +10,23 @@ function revert(s: String): String {
     return s.split("").reverse().join("");
 }
 
-console.log(revert("hello world"));
+var a = 10;
+var b = 20;
 
-console.log(color);
-console.log(hex);
-console.log(decimal);
-console.log(isDone);
+if (a < b) {
+    let tmp = a;
+    a = b;
+    b = tmp;
+    console.log(tmp);
+}
+
+console.log(a);
+console.log(b);
+
+
+//console.log(revert("hello world"));
+
+//console.log(color);
+//console.log(hex);
+//console.log(decimal);
+//console.log(isDone);
