@@ -21,4 +21,6 @@ class Clock {
         this.currentTime = new Date();
     }
 }
+//anynomous function
+let myAdd = function (x, y) { return x + y; };
 //# sourceMappingURL=app.js.map
