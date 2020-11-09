@@ -2,7 +2,7 @@
 var del = require("del");
 
 var paths = {
-    scripts: ["scripts/**/*.js", "scripts/**/*.ts", "scripts/**/*.map"],
+    scripts: ["wwwroot/scripts/**/*.js", "wwwroot/scripts/**/*.ts", "wwwroot/scripts/**/*.map"],
 };
 
 gulp.task("clean", function () {

@@ -12,10 +12,10 @@ if (a < b) {
     let tmp = a;
     a = b;
     b = tmp;
-    console.log(tmp);
+    //console.log(tmp);
 }
-console.log(a);
-console.log(b);
+//console.log(a);
+//console.log(b);
 //console.log(revert("hello world"));
 //console.log(color);
 //console.log(hex);
