@@ -1,4 +1,5 @@
-﻿let isDone: Boolean = false;
+﻿import {StringValidator} from "./StringValidator"
+let isDone: Boolean = false;
 
 let decimal: number = 6;
 let hex: number = 0xf00d;

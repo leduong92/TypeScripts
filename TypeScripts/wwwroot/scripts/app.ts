@@ -45,4 +45,23 @@ class Clock implements ClockInterface {
 
 let myAdd: (x: number, y: number) => number = function (x: number, y: number): number { return x + y;}
 
+//Rest parameters
+function buildName(firstName: string, ...restOfName: string[]) {
+    return firstName + " " + restOfName.join(" ");
+}
+let emp = buildName("Joseph", "Samuel", "Lucas", "Mark");
+
+
+interface GenericIdentityFn<T> {
+    (arg: T): T;
+}
+function identity<T>(arg: T): T {
+    return arg;
+}
+let myIdentity: GenericIdentityFn<number> = identity;
+
+
+export interface StringValidator {
+    isAcceptable(s: string): boolean;
+}
 

@@ -23,4 +23,14 @@ class Clock {
 }
 //anynomous function
 let myAdd = function (x, y) { return x + y; };
+//Rest parameters
+function buildName(firstName, ...restOfName) {
+    return firstName + " " + restOfName.join(" ");
+}
+let emp = buildName("Joseph", "Samuel", "Lucas", "Mark");
+function identity(arg) {
+    return arg;
+}
+let myIdentity = identity;
+export {};
 //# sourceMappingURL=app.js.map
